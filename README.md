@@ -7,6 +7,13 @@ $ sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
 $ sudo apt-get update
 $ sudo apt-get install sublime-text-installer
 ```
+ติดตั้ง nodeJS
+'''
+$ curl -sL https://deb.nodesource.com/setup | sudo bash -
+$ sudo apt-get install nodejs
+$ sudo apt-get install npm
+$ sudo ln -s /usr/bin/nodejs /usr/bin/node
+'''
 Mongoose
 Download
 ```
