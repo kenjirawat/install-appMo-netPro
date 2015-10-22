@@ -8,12 +8,12 @@ $ sudo apt-get update
 $ sudo apt-get install sublime-text-installer
 ```
 ติดตั้ง nodeJS
-'''
-$ curl -sL https://deb.nodesource.com/setup | sudo bash -
-$ sudo apt-get install nodejs
-$ sudo apt-get install npm
-$ sudo ln -s /usr/bin/nodejs /usr/bin/node
-'''
+```
+$ sudo apt-get update && sudo apt-get install -y build-essential openssl libssl-dev pkg-config
+$ wget -c "http://nodejs.org/dist/v0.12.0/node-v0.12.0.tar.gz"
+$ sudo tar -xzvf node-v0.12.0.tar.gz
+```
+
 Mongoose
 Download
 ```
